@@ -1,0 +1,12 @@
+{
+  "name": "PurgeCSS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.0"
+  },
+  "scripts": {
+    "build": "purgecss --css bootstrap-grid.min.css --content index.html --out dist/"
+  }
+}
